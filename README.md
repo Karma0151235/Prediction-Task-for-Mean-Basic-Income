@@ -1,12 +1,28 @@
 ### Data-Mining-and-Knowledge-Discovery-Final-Assignment
 
 
-This project involves comparing the performances of machine learning algorithms on their ability to predict a target variable. These algorithms will be trained on a graduate employment survey dataset to predict the Basic Monthly Salary - Mean (S$). The dataset includes information about graduates from multiple universities, their degrees, and employment statistics. The goal is to predict the average monthly salary based on different features such as university, degree, and other numerical factors.
+This project involves comparing the performances of machine learning algorithms on their ability to predict a target variable. These algorithms will be trained on a graduate employment survey dataset to predict the **Basic Monthly Salary - Mean (S$)**. The dataset includes information about graduates from multiple universities, their degrees, and employment statistics. The goal is to predict the average monthly salary based on different features such as university, degree, and other numerical factors.
 
 ## Overview
 
-This project focuses on analyzing and predicting the Basic Monthly Salary - Mean (S$) for graduates from various universities. The dataset contains both categorical and numerical variables, which are preprocessed and transformed for model training. Multiple machine learning models are trained and evaluated, including Linear Regression, Decision Trees, Random Forest, Support Vector Regressor, and Gradient Boosting. The evaluation metrics are MAE, MSE, RMSE, and R2. 
+This project focuses on analyzing and predicting the **Basic Monthly Salary - Mean (S$)** for graduates from various universities. The dataset contains both categorical and numerical variables, which are preprocessed and transformed for model training. Multiple machine learning models are trained and evaluated, including Linear Regression, Decision Trees, Random Forest, Support Vector Regressor, and Gradient Boosting. The evaluation metrics are MAE, MSE, RMSE, and R2. 
 
+## How To Run
+<ol>
+ <li> Clone the Repository </li>
+ ```
+ git clone https://github.com/Karma0151235/Prediction-Task-for-Mean-Basic-Income.git 
+ cd Prediction-Task-for-Mean-Basic-Income
+ ```
+ <li> Install Required Dependencies </li>
+ ```
+ pip install -r requirements.txt
+ ```
+ <li> Running the Script </li>
+ ```
+ python main.py
+ ```
+</ol>
 ## Dataset 
 The dataset used in this project is the Graduate Employment Survey dataset retrieved from data.gov.sg, which includes the following columns:
 <ul>
