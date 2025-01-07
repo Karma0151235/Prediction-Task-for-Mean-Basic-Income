@@ -10,19 +10,28 @@ This project focuses on analyzing and predicting the **Basic Monthly Salary - Me
 ## How To Run
 <ol>
  <li> Clone the Repository </li>
+ 
  ```
  git clone https://github.com/Karma0151235/Prediction-Task-for-Mean-Basic-Income.git 
  cd Prediction-Task-for-Mean-Basic-Income
  ```
+
  <li> Install Required Dependencies </li>
+ 
  ```
  pip install -r requirements.txt
  ```
+
  <li> Running the Script </li>
+ 
  ```
  python main.py
  ```
+
 </ol>
+</br>
+Ensure that the CSV is downloaded and in the same folder as the python script (`main.py`) for the script to work. 
+
 ## Dataset 
 The dataset used in this project is the Graduate Employment Survey dataset retrieved from data.gov.sg, which includes the following columns:
 <ul>
