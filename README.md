@@ -69,10 +69,11 @@ The dataset is loaded from a CSV file, and missing values are handled appropriat
 
 ### Phase 6: Model Evaluation
 <ul>
- <li>Evaluate each model using metrics like **MAE**, **MSE**, **RMSE**, and **R² score**.</li>
+ <li>Evaluate each model using metrics like <strong>MAE</strong>strong>, **MSE**, **RMSE**, and **R² score**.</li>
  <li>Display the evaluation results in a tabular format.</li>
  <li>Visualize the **R² scores** of the models.</li>
 </ul>
+
 ## Results
 The models are evaluated based on the following metrics:
 </br>
