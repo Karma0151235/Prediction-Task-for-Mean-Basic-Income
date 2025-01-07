@@ -10,13 +10,19 @@ This project focuses on analyzing and predicting the Basic Monthly Salary - Mean
 ## Dataset 
 The dataset used in this project is the Graduate Employment Survey dataset retrieved from data.gov.sg, which includes the following columns:
 <br/>
-`year`: The year of graduation. <br/>
-`university`: The university the graduate attended. <br/>
-`school`: The school within the university. <br/>
-`degree`: The degree the graduate obtained. <br/>
-`basic_monthly_mean`: The average monthly salary (target variable). <br/>
-Other numerical and categorical features. <br/>
-The dataset is loaded from a CSV file, and missing values are handled appropriately. <br/>
+`year`: The year of graduation. 
+
+`university`: The university the graduate attended. 
+
+`school`: The school within the university. 
+
+`degree`: The degree the graduate obtained. 
+
+`basic_monthly_mean`: The average monthly salary (target variable). 
+
+Other numerical and categorical features. 
+
+The dataset is loaded from a CSV file, and missing values are handled appropriately. 
 
 ## Technologies Used
 
@@ -28,30 +34,31 @@ The dataset is loaded from a CSV file, and missing values are handled appropriat
 
 ## Steps Involved
 
-# Phase 1: Dataset Loading
+### Phase 1: Dataset Loading
 The dataset is loaded from a CSV file and "Null" values are replaced with `NaN` for proper handling of missing data.
 
-# Phase 2: Preprocessing
+### Phase 2: Preprocessing
 <ul>
   <li>Convert categorical columns (`year`, `university`, `school`, `degree`) to categorical data types.</li>
   <li>Convert numerical columns to appropriate numeric types.</li>
   <li>Encode categorical variables using `LabelEncoder`.</li>
 </ul>
-# Phase 3: Exploratory Data Analysis (EDA)
+
+### Phase 3: Exploratory Data Analysis (EDA)
 Display dataset information, missing values, and summary statistics.
 Visualize the correlation matrix for numerical features.
 Display correlations with the target variable (`basic_monthly_mean`).
 
-# Phase 4: Data Cleaning
+### Phase 4: Data Cleaning
 Drop rows with missing target values (`basic_monthly_mean`).
 Revert categorical variables back to their original form after EDA.
 
-# Phase 5: Model Training
+### Phase 5: Model Training
 Split the data into training and test sets.
 Scale features using `StandardScaler`.
 Train multiple models: **Linear Regression**, **Decision Trees**, **Random Forest**, **Support Vector Regressor**, and **Gradient Boosting**.
 
-# Phase 6: Model Evaluation
+### Phase 6: Model Evaluation
 Evaluate each model using metrics like **MAE**, **MSE**, **RMSE**, and **R² score**.
 Display the evaluation results in a tabular format.
 Visualize the **R² scores** of the models.
@@ -68,6 +75,6 @@ The models are evaluated based on the following metrics:
 The best-performing model is identified based on the highest R² score.
 
 ## Visualizations
-**Correlation Heatmap**: Displays the correlation of features with the target variable (`basic_monthly_mean`).
-**Model R² Scores**: A histogram plot visualizing the **R² scores** of different models.
-**Actual vs Predicted**: A scatter plot comparing the actual and predicted values for the best-performing model.
+**Correlation Heatmap**: Displays the correlation of features with the target variable (`basic_monthly_mean`). <br/>
+**Model R² Scores**: A histogram plot visualizing the **R² scores** of different models. <br/>
+**Actual vs Predicted**: A scatter plot comparing the actual and predicted values for the best-performing model. <br/>
