@@ -8,45 +8,44 @@ This project involves comparing the performances of machine learning algorithms 
 This project focuses on analyzing and predicting the **Basic Monthly Salary - Mean (S$)** for graduates from various universities. The dataset contains both categorical and numerical variables, which are preprocessed and transformed for model training. Multiple machine learning models are trained and evaluated, including Linear Regression, Decision Trees, Random Forest, Support Vector Regressor, and Gradient Boosting. The evaluation metrics are MAE, MSE, RMSE, and R2. 
 
 ## How To Run
-<ol>
- <li> Clone the Repository </li>
+
+1. Clone the Repository 
  
  ```
  git clone https://github.com/Karma0151235/Prediction-Task-for-Mean-Basic-Income.git 
  cd Prediction-Task-for-Mean-Basic-Income
  ```
 
- <li> Install Required Dependencies </li>
+2. Install Required Dependencies 
  
  ```
  pip install -r requirements.txt
  ```
 
- <li> Running the Script </li>
+3. Running the Script 
  
  ```
  python main.py
  ```
 
-</ol>
+
 </br>
 Ensure that the CSV is downloaded and in the same folder as the python script (`main.py`) for the script to work. 
 
 ## Dataset 
 The dataset used in this project is the Graduate Employment Survey dataset retrieved from data.gov.sg, which includes the following columns:
-<ul>
- <li>`year`: The year of graduation. </li>
 
- <li>`university`: The university the graduate attended. </li>
+- `year`: The year of graduation. 
 
- <li>`school`: The school within the university. </li>
+- `university`: The university the graduate attended. 
 
- <li>`degree`: The degree the graduate obtained. </li>
+- `school`: The school within the university. 
 
- <li>`basic_monthly_mean`: The average monthly salary (target variable). </li>
+- `degree`: The degree the graduate obtained. 
 
- <li>Other numerical and categorical features. </li>
-</ul>
+- `basic_monthly_mean`: The average monthly salary (target variable). 
+
+- Other numerical and categorical features. 
 
 The dataset is loaded from a CSV file, and missing values are handled appropriately. 
 
@@ -61,53 +60,53 @@ The dataset is loaded from a CSV file, and missing values are handled appropriat
 ## Steps Involved
 
 ### Phase 1: Dataset Loading
-<ul>
- <li>The dataset is loaded from a CSV file and "Null" values are replaced with `NaN` for proper handling of missing data.</li>
-</ul>
+
+ - The dataset is loaded from a CSV file and "Null" values are replaced with `NaN` for proper handling of missing data.
+
 
 ### Phase 2: Preprocessing
-<ul>
-  <li>Convert categorical columns (`year`, `university`, `school`, `degree`) to categorical data types.</li>
-  <li>Convert numerical columns to appropriate numeric types.</li>
-  <li>Encode categorical variables using `LabelEncoder`.</li>
-</ul>
+
+ - Convert categorical columns (`year`, `university`, `school`, `degree`) to categorical data types.
+ - Convert numerical columns to appropriate numeric types.
+ - Encode categorical variables using `LabelEncoder`.
+
 
 ### Phase 3: Exploratory Data Analysis (EDA)
-<ul>
-  <li>Display dataset information, missing values, and summary statistics.</li>
-  <li>Visualize the correlation matrix for numerical features.</li>
-  <li>Display correlations with the target variable (`basic_monthly_mean`).</li>
-</ul>
+
+ - Display dataset information, missing values, and summary statistics.
+ - Visualize the correlation matrix for numerical features.
+ - Display correlations with the target variable (`basic_monthly_mean`).
+
 
 ### Phase 4: Data Cleaning
-<ul>
-  <li>Drop rows with missing target values (`basic_monthly_mean`).</li>
-  <li>Revert categorical variables back to their original form after EDA.</li>
-</ul>
+
+ - Drop rows with missing target values (`basic_monthly_mean`).
+ - Revert categorical variables back to their original form after EDA.
+
 
 ### Phase 5: Model Training
-<ul>
-  <li>Split the data into training and test sets.</li>
-  <li>Scale features using `StandardScaler`.</li>
-  <li>Train multiple models: <strong>Linear Regression</strong>, <strong>Decision Trees</strong>, <strong>Random Forest</strong>, <strong>Support Vector Regressor</strong>, and <strong>Gradient Boosting</strong>.</li>
-</ul>
+
+ - Split the data into training and test sets.
+ - Scale features using `StandardScaler`.
+ - Train multiple models: **Linear Regression**, **Decision Trees**, **Random Forest**, **Support Vector Regressor**, and **Gradient Boosting**.
+
 
 ### Phase 6: Model Evaluation
-<ul>
- <li>Evaluate each model using metrics like <strong>MAE</strong>, <strong>MSE</strong>, <strong>RMSE</strong>, and <strong>R² score</strong>.</li>
- <li>Display the evaluation results in a tabular format.</li>
- <li>Visualize the <strong>R² scores</strong> of the models.</li>
-</ul>
+
+ - Evaluate each model using metrics like **MAE**, **MSE**, **RMSE**, and **R² score**.
+ - Display the evaluation results in a tabular format.
+ - Visualize the **R² scores** of the models.
+
 
 ## Results
 The models are evaluated based on the following metrics:
 </br>
-<ol>
-  <li>MAE (Mean Absolute Error)</li>
-  <li>MSE (Mean Squared Error)</li>
-  <li>RMSE (Root Mean Squared Error)</li>
-  <li>R² Score: The coefficient of determination.</li>
-</ol>
+
+ 1. MAE (Mean Absolute Error)
+ 2. MSE (Mean Squared Error)
+ 3. RMSE (Root Mean Squared Error)
+ 4. R² Score: The coefficient of determination.
+
 The best-performing model is identified based on the highest R² score.
 
 ## Visualizations
