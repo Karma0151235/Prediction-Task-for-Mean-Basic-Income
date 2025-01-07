@@ -64,14 +64,14 @@ The dataset is loaded from a CSV file, and missing values are handled appropriat
 <ul>
   <li>Split the data into training and test sets.</li>
   <li>Scale features using `StandardScaler`.</li>
-  <li>Train multiple models: **Linear Regression**, **Decision Trees**, **Random Forest**, **Support Vector Regressor**, and **Gradient Boosting**.</li>
+  <li>Train multiple models: <strong>Linear Regression</strong>, <strong>Decision Trees</strong>, <strong>Random Forest</strong>, <strong>Support Vector Regressor</strong>, and <strong>Gradient Boosting</strong>.</li>
 </ul>
 
 ### Phase 6: Model Evaluation
 <ul>
- <li>Evaluate each model using metrics like <strong>MAE</strong>strong>, **MSE**, **RMSE**, and **R² score**.</li>
+ <li>Evaluate each model using metrics like <strong>MAE</strong>, <strong>MSE</strong>, <strong>RMSE</strong>, and <strong>R² score</strong>.</li>
  <li>Display the evaluation results in a tabular format.</li>
- <li>Visualize the **R² scores** of the models.</li>
+ <li>Visualize the <strong>R² scores</strong> of the models.</li>
 </ul>
 
 ## Results
