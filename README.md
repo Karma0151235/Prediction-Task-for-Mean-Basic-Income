@@ -9,18 +9,19 @@ This project focuses on analyzing and predicting the Basic Monthly Salary - Mean
 
 ## Dataset 
 The dataset used in this project is the Graduate Employment Survey dataset retrieved from data.gov.sg, which includes the following columns:
-<br/>
-`year`: The year of graduation. 
+<ul>
+ <li>`year`: The year of graduation. </li>
 
-`university`: The university the graduate attended. 
+ <li>`university`: The university the graduate attended. </li>
 
-`school`: The school within the university. 
+ <li>`school`: The school within the university. </li>
 
-`degree`: The degree the graduate obtained. 
+ <li>`degree`: The degree the graduate obtained. </li>
 
-`basic_monthly_mean`: The average monthly salary (target variable). 
+ <li>`basic_monthly_mean`: The average monthly salary (target variable). </li>
 
-Other numerical and categorical features. 
+ <li>Other numerical and categorical features. </li>
+</ul>
 
 The dataset is loaded from a CSV file, and missing values are handled appropriately. 
 
