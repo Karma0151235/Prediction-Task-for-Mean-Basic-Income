@@ -111,5 +111,5 @@ The best-performing model is identified based on the highest R² score.
 
 ## Visualizations
 **Correlation Heatmap**: Displays the correlation of features with the target variable (`basic_monthly_mean`). <br/>
-**Model R² Scores**: A histogram plot visualizing the **R² scores** of different models. <br/>
+**Model R² Scores**: A bar chart plot visualizing the **R² scores** of different models. <br/>
 **Actual vs Predicted**: A scatter plot comparing the actual and predicted values for the best-performing model. <br/>
