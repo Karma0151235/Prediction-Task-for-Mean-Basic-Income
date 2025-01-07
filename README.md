@@ -9,27 +9,27 @@ This project focuses on analyzing and predicting the Basic Monthly Salary - Mean
 
 ## Dataset 
 The dataset used in this project is the Graduate Employment Survey dataset retrieved from data.gov.sg, which includes the following columns:
-
-`year`: The year of graduation.
-`university`: The university the graduate attended.
-`school`: The school within the university.
-`degree`: The degree the graduate obtained.
-`basic_monthly_mean`: The average monthly salary (target variable).
-Other numerical and categorical features.
-The dataset is loaded from a CSV file, and missing values are handled appropriately.
+<br/>
+`year`: The year of graduation. <br/>
+`university`: The university the graduate attended. <br/>
+`school`: The school within the university. <br/>
+`degree`: The degree the graduate obtained. <br/>
+`basic_monthly_mean`: The average monthly salary (target variable). <br/>
+Other numerical and categorical features. <br/>
+The dataset is loaded from a CSV file, and missing values are handled appropriately. <br/>
 
 ## Technologies Used
 
-**Python**: The primary programming language used for data analysis and machine learning.
-**Pandas**: For data manipulation and preprocessing.
-**NumPy**: For numerical operations.
-**Matplotlib & Seaborn**: For data visualization.
-**Scikit-learn**: For machine learning model training, evaluation, and preprocessing.
+**Python**: The primary programming language used for data analysis and machine learning. <br/>
+**Pandas**: For data manipulation and preprocessing. <br/>
+**NumPy**: For numerical operations. <br/>
+**Matplotlib & Seaborn**: For data visualization. <br/>
+**Scikit-learn**: For machine learning model training, evaluation, and preprocessing. <br/>
 
 ## Steps Involved
 
 # Phase 1: Dataset Loading
-<ul>The dataset is loaded from a CSV file and "Null" values are replaced with `NaN` for proper handling of missing data.</ul>
+The dataset is loaded from a CSV file and "Null" values are replaced with `NaN` for proper handling of missing data.
 
 # Phase 2: Preprocessing
 <ul>
