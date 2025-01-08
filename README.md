@@ -74,5 +74,4 @@ The best-performing model is identified based on the highest R² score.
 **Actual vs Predicted**: A scatter plot comparing the actual and predicted values for the best-performing model. <br/>
 
 ## Current Issues
-</br>
 The current issue the script experiences is poor hyperparameter tuning for random forest, gradient boosting, and decision tree algorithms. The next objective will involve improving these hyperparameters to reduce overfitting. 
