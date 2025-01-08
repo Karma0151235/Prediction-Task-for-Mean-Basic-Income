@@ -57,47 +57,6 @@ The dataset is loaded from a CSV file, and missing values are handled appropriat
 **Matplotlib & Seaborn**: For data visualization. <br/>
 **Scikit-learn**: For machine learning model training, evaluation, and preprocessing. <br/>
 
-## Steps Involved
-
-### Phase 1: Dataset Loading
-
- - The dataset is loaded from a CSV file and "Null" values are replaced with `NaN` for proper handling of missing data.
-
-
-### Phase 2: Preprocessing
-
- - Convert categorical columns (`year`, `university`, `school`, `degree`) to categorical data types.
- - Convert numerical columns to appropriate numeric types.
- - Encode categorical variables using `LabelEncoder`.
-
-
-### Phase 3: Exploratory Data Analysis (EDA)
-
- - Display dataset information, missing values, and summary statistics.
- - Visualize the correlation matrix for numerical features.
- - Display correlations with the target variable (`basic_monthly_mean`).
-
-
-### Phase 4: Data Cleaning
-
- - Drop rows with missing target values (`basic_monthly_mean`).
- - Revert categorical variables back to their original form after EDA.
-
-
-### Phase 5: Model Training
-
- - Split the data into training and test sets.
- - Scale features using `StandardScaler`.
- - Train multiple models: **Linear Regression**, **Decision Trees**, **Random Forest**, **Support Vector Regressor**, and **Gradient Boosting**.
-
-
-### Phase 6: Model Evaluation
-
- - Evaluate each model using metrics like **MAE**, **MSE**, **RMSE**, and **R² score**.
- - Display the evaluation results in a tabular format.
- - Visualize the **R² scores** of the models.
-
-
 ## Results
 The models are evaluated based on the following metrics:
 </br>
@@ -113,3 +72,7 @@ The best-performing model is identified based on the highest R² score.
 **Correlation Heatmap**: Displays the correlation of features with the target variable (`basic_monthly_mean`). <br/>
 **Model R² Scores**: A bar chart plot visualizing the **R² scores** of different models. <br/>
 **Actual vs Predicted**: A scatter plot comparing the actual and predicted values for the best-performing model. <br/>
+
+## Current Issues
+</br>
+The current issue the script experiences is poor hyperparameter tuning for random forest, gradient boosting, and decision tree algorithms. The next objective will involve improving these hyperparameters to reduce overfitting. 
